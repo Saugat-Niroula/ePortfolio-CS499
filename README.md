@@ -50,7 +50,8 @@ The artifacts included in my ePortfolio reflect the comprehensive skill set I ha
 - **Justification:** This artifact was chosen for inclusion in my ePortfolio because it demonstrates key skills and abilities in software development, particularly in software design and user interface design. The enhancements included implementing Singleton and MVC patterns, redesigning the user interface to follow Material Design guidelines, and adding functionalities for PDF report generation and barcode scanning.
 - **Enhancements:** Implemented Singleton and MVC patterns in the DataController and DatabaseHelper classes to improve code maintainability and readability. Redesigned the user interface in data_display_screen.xml to follow Material Design guidelines, enhancing the user experience. Added PDF report generation functionality in DataController to create inventory reports and barcode scanning capabilities in BarcodeScannerActivity to facilitate quick item lookup.
 - **Learning and Challenges:** The process of enhancing this artifact provided valuable learning experiences. Implementing design patterns required a deeper understanding of software architecture. Redesigning the user interface enhanced my skills in UI/UX design, while adding advanced functionalities expanded my knowledge of integrating third-party libraries and services. Challenges included managing dependencies and ensuring compatibility with existing project structures.
-[Click here for reading my artifact enhancement document for more detailed information](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Narratives%20for%20Software%20Design%20and%20Engineering%20Enhancement-Milestone%20Two.docx)
+- 
+[For more detailed information on the above enhancement,click here for reading my artifact enhancement document ](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Narratives%20for%20Software%20Design%20and%20Engineering%20Enhancement-Milestone%20Two.docx)
 
 ### Algorithms and Data Structure Artifact
 **Inventory Management Application**
@@ -59,7 +60,7 @@ The artifacts included in my ePortfolio reflect the comprehensive skill set I ha
 - **Enhancements:** Optimized data retrieval by implementing indexing on frequently queried columns and using in-memory caching for frequently accessed data. Implemented a balanced binary search tree in the DataController class for efficient searching, insertion, and deletion operations. Added sorting functionalities in sortItems method and filtering options in filterItemsByQuantity method to improve usability.
 - **Learning and Challenges:** Enhancing this artifact involved understanding advanced data structures and their practical applications. Implementing indexing and in-memory caching required a deeper understanding of database optimization techniques. Integrating a balanced binary search tree expanded my knowledge of algorithmic principles. Challenges included ensuring data consistency and managing efficient memory usage.
 
-[Click here for reading my artifact enhancement document for more detailed information](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Narratives%20for%20Algorithm%20and%20Data%20Structure%20Enhancement-Milestone%20Three.docx)
+[For more detailed information on the above enhancement,click here for reading my artifact enhancement document](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Narratives%20for%20Algorithm%20and%20Data%20Structure%20Enhancement-Milestone%20Three.docx)
 
 ### Databases Artifact
 **Inventory Management Application**
@@ -68,7 +69,7 @@ The artifacts included in my ePortfolio reflect the comprehensive skill set I ha
 - **Enhancements:** Replaced the local SQLite database with Firebase Firestore in DataController for real-time data synchronization. Created DataMigration class to transition data from SQLite to Firestore without data loss. Implemented encryption for user credentials in DataMigration class using AES encryption. Added unit and instrumentation tests in ExampleInstrumentedTest to ensure reliability of Firestore integration and encryption functionality.
 - **Learning and Challenges:** Enhancing this artifact involved understanding cloud-based databases and real-time data synchronization. Implementing encryption techniques expanded my knowledge of data security. Developing data migration scripts required ensuring data integrity throughout the transition. Challenges included managing data consistency and ensuring secure data storage in Firestore.
 
-[Click here for reading my artifact enhancement document for more detailed information](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Narratives%20for%20Database%20Enhancement-Milestone%20Four.docx)
+[For more detailed information on the above enhancement,click here for reading my artifact enhancement document](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Narratives%20for%20Database%20Enhancement-Milestone%20Four.docx)
 
 ## Conclusion
 The enhancements made to each artifact demonstrate my growth and readiness to tackle complex challenges in the field of computer science. The ePortfolio not only showcases my technical abilities but also highlights my commitment to continuous learning and improvement. Completing the capstone project has prepared me to enter the professional world with confidence, equipped with the skills and knowledge needed to excel in my chosen career path as a cybersecurity analyst.
