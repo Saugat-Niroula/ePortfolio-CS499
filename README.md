@@ -55,7 +55,11 @@ For a comprehensive overview of the initial code and planned enhancements across
 - **Enhancements:** Implemented Singleton and MVC patterns in the DataController and DatabaseHelper classes to improve code maintainability and readability. Redesigned the user interface in data_display_screen.xml to follow Material Design guidelines, enhancing the user experience. Added PDF report generation functionality in DataController to create inventory reports and barcode scanning capabilities in BarcodeScannerActivity to facilitate quick item lookup.
 - **Learning and Challenges:** The process of enhancing this artifact provided valuable learning experiences. Implementing design patterns required a deeper understanding of software architecture. Redesigning the user interface enhanced my skills in UI/UX design, while adding advanced functionalities expanded my knowledge of integrating third-party libraries and services. Challenges included managing dependencies and ensuring compatibility with existing project structures.
 - 
-[For more detailed information on the above enhancement,click here for reading my artifact enhancement document ](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Narratives%20for%20Software%20Design%20and%20Engineering%20Enhancement-Milestone%20Two.docx)
+[For more detailed information on the above enhancement, click here for reading my artifact enhancement document ](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Narratives%20for%20Software%20Design%20and%20Engineering%20Enhancement-Milestone%20Two.docx)
+
+[Also, click on this link if you want to view my initial code before this enhancement.](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Initial%20Code.zip)
+
+[And, click on this link if you want to view my enhanced code for this category.](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Enhanced%20code%20for%20Software%20Design%20and%20Engineering-Milestone%20Two.zip)
 
 ### Algorithms and Data Structure Artifact
 **Inventory Management Application**
@@ -66,6 +70,10 @@ For a comprehensive overview of the initial code and planned enhancements across
 
 [For more detailed information on the above enhancement,click here for reading my artifact enhancement document](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Narratives%20for%20Algorithm%20and%20Data%20Structure%20Enhancement-Milestone%20Three.docx)
 
+[Also, click on this link if you want to view my initial code before this enhancement.](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Initial%20Code.zip)
+
+[And, click on this link if you want to view my enhanced code for this category.](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Enhanced%20code%20for%20Algorithm%20and%20Data%20Structure-Milestone%20Three.zip)
+
 ### Databases Artifact
 **Inventory Management Application**
 - **Description and Origin:** The Inventory Management Application was initially developed for the CS360 Mobile Architecture and Programming course in September 2023. The app streamlines inventory management in warehouse environments by providing features such as user authentication, inventory display, item addition and removal, quantity adjustment, and low inventory notifications.
@@ -74,6 +82,10 @@ For a comprehensive overview of the initial code and planned enhancements across
 - **Learning and Challenges:** Enhancing this artifact involved understanding cloud-based databases and real-time data synchronization. Implementing encryption techniques expanded my knowledge of data security. Developing data migration scripts required ensuring data integrity throughout the transition. Challenges included managing data consistency and ensuring secure data storage in Firestore.
 
 [For more detailed information on the above enhancement,click here for reading my artifact enhancement document](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Narratives%20for%20Database%20Enhancement-Milestone%20Four.docx)
+
+[Also, click on this link if you want to view my initial code before this enhancement.](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Initial%20Code.zip)
+
+[And, click on this link if you want to view my enhanced code for this category.](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Enhanced%20code%20for%20Database-Milestone%20Four.zip)
 
 ## Conclusion
 The enhancements made to each artifact demonstrate my growth and readiness to tackle complex challenges in the field of computer science. The ePortfolio not only showcases my technical abilities but also highlights my commitment to continuous learning and improvement. Completing the capstone project has prepared me to enter the professional world with confidence, equipped with the skills and knowledge needed to excel in my chosen career path as a cybersecurity analyst.
