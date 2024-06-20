@@ -43,7 +43,7 @@ The artifacts included in my ePortfolio reflect the comprehensive skill set I ha
 - **Skills Demonstrated:** Cloud-based database integration, complex query implementation, data security, and testing.
 
 ## Code Review Video
-For a comprehensive overview of the initial code and planned enhancements across all three categories, please watch my code review video: [Code Review Video](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Initida%20Code%20Review%20Video.mp4)
+For a comprehensive overview of the initial code and planned enhancements across all three categories, please watch my code review video: [Code Review Video](https://www.youtube.com/watch?v=UaAsITwGW6Y)
 
 
 ## Detailed Artifact Narratives
