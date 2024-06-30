@@ -13,7 +13,7 @@ Optimized data retrieval by implementing indexing on frequently queried columns 
 ## Learning and Challenges
 Enhancing this artifact involved understanding advanced data structures and their practical applications. Implementing indexing and in-memory caching required a deeper understanding of database optimization techniques. Integrating a balanced binary search tree expanded my knowledge of algorithmic principles. Challenges included ensuring data consistency and managing efficient memory usage.
 
-[For more detailed information on the above enhancement, click here for reading my artifact enhancement document](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Narratives%20for%20Algorithm%20and%20Data%20Structure%20Enhancement-Milestone%20Three.docx)
+[For more detailed information on the above enhancement, click here for reading my artifact enhancement document](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Algorithms%20and%20Data%20Structure/CS%20499%20Milestone_3_Narratives%20for%20Algorithms%20and%20Data%20Structure%20EnhancementSaugat_Niroula.pdf)
 
 [Also, click on this link if you want to view my initial code before this enhancement.](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Initial%20Code.zip)
 
