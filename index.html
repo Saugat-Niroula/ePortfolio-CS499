@@ -10,16 +10,17 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
+            color: #333;
         }
         header {
             background: #333;
             color: #fff;
-            padding: 10px 0;
+            padding: 20px 0;
             text-align: center;
         }
         nav {
             background: #f4f4f4;
-            padding: 10px;
+            padding: 15px;
             text-align: center;
             position: sticky;
             top: 0;
@@ -32,17 +33,36 @@
         }
         nav ul li {
             display: inline;
-            margin: 0 10px;
+            margin: 0 15px;
         }
         nav ul li a {
             text-decoration: none;
             color: #333;
+            font-weight: bold;
         }
         section {
             padding: 20px;
         }
         h1, h2, h3 {
             color: #333;
+        }
+        .toc ul {
+            list-style: none;
+            padding: 0;
+        }
+        .toc ul li a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .toc ul ul {
+            padding-left: 20px;
+        }
+        .toc ul li {
+            margin-bottom: 5px;
+        }
+        iframe {
+            display: block;
+            margin: 20px auto;
         }
     </style>
 </head>
@@ -69,7 +89,7 @@
 
 <section>
     <h2>Table of Contents</h2>
-    <ul>
+    <ul class="toc">
         <li>Strength and Goals</li>
         <ul>
             <li><a href="#collaborating-in-team">Collaborating in a Team Environment</a></li>
@@ -118,7 +138,7 @@
 
 <section id="code-review-video">
     <h2>Code Review Video</h2>
-    <p>For a comprehensive overview of the initial code and planned enhancements across all three categories, please watch my code review video: <a href="https://www.youtube.com/watch?v=UaAsITwGW6Y" target="_blank">Code Review Video</a></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UaAsITwGW6Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
 <section id="enhancement-goals">
@@ -138,7 +158,9 @@
     <p><a href="https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Software%20Design%20and%20Engineering/CS%20499%20Milestone_2_Narratives%20for%20Software%20Design%20and%20Engineering%20Enhancement_Saugat_Niroula.pdf" target="_blank">For more detailed information on the above enhancement, click here for reading my artifact enhancement document</a></p>
     <p><a href="https://github.com/Saugat-Niroula/ePortfolio-CS499/tree/main/Unenhanced%20code%20for%20all%20three%20Category/app/src/main/java/com/example/myapplicationsaugatniroula" target="_blank">Also, click on this link if you want to view my initial code before this enhancement.</a></p>
     <p><a href="https://github.com/Saugat-Niroula/ePortfolio-CS499/tree/main/Software%20Design%20and%20Engineering/Enhanced%20code/app/src/main/java/com/example/myapplicationsaugatniroula" target="_blank">And, click on this link if you want to view my enhanced code for this category.</a></p>
+</section>
 
+<section id="enhancements-algorithms">
     <h3>Enhancement for Algorithms and Data Structure Artifact</h3>
     <p><strong>Inventory Management Application</strong></p>
     <ul>
@@ -150,7 +172,9 @@
     <p><a href="https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Algorithms%20and%20Data%20Structure/CS%20499%20Milestone_3_Narratives%20for%20Algorithms%20and%20Data%20Structure%20EnhancementSaugat_Niroula.pdf" target="_blank">For more detailed information on the above enhancement, click here for reading my artifact enhancement document</a></p>
     <p><a href="https://github.com/Saugat-Niroula/ePortfolio-CS499/tree/main/Unenhanced%20code%20for%20all%20three%20Category/app/src/main/java/com/example/myapplicationsaugatniroula" target="_blank">Also, click on this link if you want to view my initial code before this enhancement.</a></p>
     <p><a href="https://github.com/Saugat-Niroula/ePortfolio-CS499/tree/main/Algorithms%20and%20Data%20Structure/Enhanced%20Code/app/src/main/java/com/example/myapplicationsaugatniroula" target="_blank">And, click on this link if you want to view my enhanced code for this category.</a></p>
+</section>
 
+<section id="enhancements-databases">
     <h3>Enhancement for Databases Artifact</h3>
     <p><strong>Inventory Management Application</strong></p>
     <ul>
