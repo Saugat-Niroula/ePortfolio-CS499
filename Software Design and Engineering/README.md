@@ -12,9 +12,3 @@ Implemented Singleton and MVC patterns in the `DataController` and `DatabaseHelp
 
 ## Learning and Challenges
 The process of enhancing this artifact provided valuable learning experiences. Implementing design patterns required a deeper understanding of software architecture. Redesigning the user interface enhanced my skills in UI/UX design, while adding advanced functionalities expanded my knowledge of integrating third-party libraries and services. Challenges included managing dependencies and ensuring compatibility with existing project structures.
-
-[For more detailed information on the above enhancement, click here for reading my artifact enhancement document](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Software%20Design%20and%20Engineering/CS%20499%20Milestone_2_Narratives%20for%20Software%20Design%20and%20Engineering%20Enhancement_Saugat_Niroula.pdf)
-
-[Also, click on this link if you want to view my initial code before this enhancement.](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Initial%20Code.zip)
-
-[And, click on this link if you want to view my enhanced code for this category.](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Enhanced%20code%20for%20Software%20Design%20and%20Engineering-Milestone%20Two.zip)
