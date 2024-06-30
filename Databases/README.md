@@ -13,7 +13,7 @@ Replaced the local SQLite database with Firebase Firestore in `DataController` f
 ## Learning and Challenges
 Enhancing this artifact involved understanding cloud-based databases and real-time data synchronization. Implementing encryption techniques expanded my knowledge of data security. Developing data migration scripts required ensuring data integrity throughout the transition. Challenges included managing data consistency and ensuring secure data storage in Firestore.
 
-[For more detailed information on the above enhancement, click here for reading my artifact enhancement document](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Narratives%20for%20Database%20Enhancement-Milestone%20Four.docx)
+[For more detailed information on the above enhancement, click here for reading my artifact enhancement document](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Databases/CS%20499%20Milestone_4_Narratives%20for%20Database%20Enhancement_Saugat_Niroula.pdf)
 
 [Also, click on this link if you want to view my initial code before this enhancement.](https://github.com/Saugat-Niroula/ePortfolio-CS499/blob/main/Initial%20Code.zip)
 
