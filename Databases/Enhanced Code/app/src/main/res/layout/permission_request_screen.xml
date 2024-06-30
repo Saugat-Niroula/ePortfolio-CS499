@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- This button prompts the user if they want to enable SMS notifications for low inventory -->
+    <Button
+        android:id="@+id/setupNotificationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you want to setup SMS notifications for low inventory?"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white" />
+
+    <!-- This button is displayed as an affirmative response to the above question. Clicking this will proceed with the SMS setup. -->
+    <Button
+        android:id="@+id/givePermissionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes, I want the SMS notification"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white" />
+
+    <!-- This button is for users who decide not to proceed with SMS setup. -->
+    <Button
+        android:id="@+id/dontGivePermissionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No, I don't want the SMS notification"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white" />
+
+    <!-- EditText for users to input their phone number for receiving SMS notifications. -->
+    <EditText
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <!-- This button is used to save the entered phone number. -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white" />
+
+    <!-- This TextView displays messages to the user regarding their choice about SMS notifications. -->
+    <TextView
+        android:id="@+id/notificationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/black" />
+
+    <!-- Button to allow users to navigate back to the main data display activity. -->
+    <Button
+        android:id="@+id/returnToDataDisplayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return to Database screen"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white" />
+</LinearLayout>

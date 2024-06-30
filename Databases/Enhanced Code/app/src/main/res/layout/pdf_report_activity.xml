@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- Status TextView for displaying PDF report status -->
+    <TextView
+        android:id="@+id/pdfReportStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generating PDF Report..."
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="@android:color/black" />
+
+    <!-- Button to navigate back to the previous screen -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white" />
+</LinearLayout>

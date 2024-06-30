@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Root layout set as LinearLayout with vertical orientation -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- An EditText field for inputting the item name -->
+<EditText
+android:id="@+id/itemNameEditText"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Item Name"
+android:minHeight="48dp" />
+
+    <!-- An EditText field for inputting the quantity, configured to accept numerical input -->
+<EditText
+android:id="@+id/quantityEditText"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Quantity"
+android:inputType="number"
+android:minHeight="48dp" />
+
+    <!-- A Button to trigger the addition of a new data entry -->
+<Button
+android:id="@+id/addDataButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Add Data" />
+
+    <!-- A ScrollView to make the TableLayout scrollable when the content exceeds the screen size -->
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1">
+
+<!-- TableLayout to organize and display data entries in a table format -->
+<TableLayout
+    android:id="@+id/dataTable"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:divider="@android:color/darker_gray"
+    android:showDividers="middle|beginning|end">
+
+    <!-- A TableRow to create the header of the table -->
+    <TableRow
+        android:background="@android:color/darker_gray">
+
+        <!-- TextViews to label each column of the table -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Item Name"
+            android:padding="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:padding="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@android:color/white" />
+
+        <!-- An extra TextView to label the action buttons column -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Actions"
+            android:padding="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@android:color/white" />
+    </TableRow>
+</TableLayout>
+</ScrollView>
+
+    <!-- A Button to navigate to the PermissionRequestActivity for setting up SMS notifications -->
+<Button
+android:id="@+id/permissionButton"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Set SMS Permission"
+android:layout_marginTop="16dp" />
+
+    </LinearLayout>

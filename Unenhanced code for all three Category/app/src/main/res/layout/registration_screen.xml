@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Container layout that organizes UI elements vertically with padding -->
+
+    <!-- First Name Input Field: Allows the user to enter their first name -->
+    <EditText
+        android:id="@+id/firstNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:minHeight="48dp" />
+
+    <!-- Last Name Input Field: Allows the user to enter their last name -->
+    <EditText
+        android:id="@+id/lastNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:minHeight="48dp" />
+
+    <!-- Username Input Field: Allows the user to enter their desired username -->
+    <EditText
+        android:id="@+id/regUsernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:minHeight="48dp" />
+
+    <!-- Password Input Field: Allows the user to enter their desired password. The inputType is set to 'textPassword' to mask the entered characters -->
+    <EditText
+        android:id="@+id/regPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <!-- Register Button: When clicked, it triggers the registration process -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+    <!-- Go back to Login Screen Button: Allows the user to navigate back to the login screen -->
+    <Button
+        android:id="@+id/returnToLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return to Login Screen" />
+
+</LinearLayout>

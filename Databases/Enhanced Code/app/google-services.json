@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "391155296033",
+    "project_id": "my-application-saugat-niroula",
+    "storage_bucket": "my-application-saugat-niroula.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391155296033:android:3eb6a4e4fb689d06ae0060",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationsaugatniroula"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-sHv_Hb9lSXpr9RTTqJOq_86HJsGe0PA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
